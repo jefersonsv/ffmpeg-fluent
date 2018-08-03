@@ -3,6 +3,19 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>FFmpegFluent</RootNamespace>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
+    <Authors>Jeferson Tenorio</Authors>
+    <Company>Jeferson Tenorio</Company>
+    <Copyright>Copyright © Jeferson Tenorio</Copyright>
+    <Description>FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created</Description>
+    <PackageLicenseUrl>https://gep13.mit-license.org/</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/jefersonsv/ffmpeg-fluent</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jefersonsv/ffmpeg-fluent.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>batch audio video convert ffmpeg mp3 wma</PackageTags>
+    <NeutralLanguage>English</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>
