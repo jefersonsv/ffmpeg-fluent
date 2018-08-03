@@ -66,5 +66,5 @@ ffmpeg-batch *.wma *.mp3
 - [CliWrap](https://github.com/Tyrrrz/CliWrap) Wrapper for command line interface executables
 - [dotnetsay](https://github.com/dotnet/core/tree/master/samples/dotnetsay) Dotnetsay .NET Core Global Tools Sample
 - [CommandLineParser](https://github.com/j-maly/CommandLineParser) Command line parser. Declarative arguments support
-- [Microsoft.Extensions.FileSystemGlobbing]()
-- [Contessa] Font by Christopher Joseph Pirillo
+- [Microsoft.Extensions.FileSystemGlobbing](https://www.nuget.org/packages/Microsoft.Extensions.FileSystemGlobbing/) File system globbing to find files matching a specified pattern
+- [Contessa](http://www.textfiles.com/art/contessa.flf) Font by Christopher Joseph Pirillo
