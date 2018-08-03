@@ -1,4 +1,12 @@
-﻿flf2a$ 4 3 20 -1 2
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace FFmpegBatch
+{
+    public static class ContessaFont
+    {
+        public const string CONTESSA = @"flf2a$ 4 3 20 -1 2
 Contessa by Christopher Joseph Pirillo (pirillc2770@cobra.uni.edu)
 
 $$@
@@ -409,3 +417,6 @@ __.@
 |  )@
 |  >@
     @@
+";
+    }
+}

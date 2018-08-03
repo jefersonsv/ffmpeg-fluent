@@ -20,7 +20,8 @@ namespace FFmpegBatch
         {
             var desc = "FFmpeg batch";
 
-            FigletFont font = FigletFont.Load("contessa.flf");
+            var fontArr = System.Text.Encoding.Default.GetBytes(ContessaFont.CONTESSA);
+            FigletFont font = FigletFont.Load(fontArr);
             Figlet figlet = new Figlet(font);
             Console.WriteLine(figlet.ToAscii(desc), Color.Blue);
 
