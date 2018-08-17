@@ -54,10 +54,10 @@ namespace FFmpegBatch
                 Console.WriteLine("Examples:");
                 Console.WriteLine(string.Empty);
                 Console.WriteLine($@"        > To convert all wav files in currenty folder (and sub-directories recursivelly) and convert to mp3 format");
-                Console.WriteLineFormatted($@"        ffmpeg-convert -s /**/*.wav -o mp3", Color.Green);
+                Console.WriteLineFormatted($@"        ffmpeg-batch -s /**/*.wav -o mp3", Color.Green);
                 Console.WriteLine(string.Empty);
                 Console.WriteLine($@"        > To convert all wma files in c:\music and convert to mp3 format");
-                Console.WriteLineFormatted($@"        ffmpeg-convert -s c:\music\*.wma -o mp3", Color.Green);
+                Console.WriteLineFormatted($@"        ffmpeg-batch -s c:\music\*.wma -o mp3", Color.Green);
 
                 Console.WriteLine(Environment.NewLine);
                 Console.WriteLine("Install/Uninstall tool:");
@@ -89,6 +89,8 @@ namespace FFmpegBatch
             var results = MatcherExtensions.GetResultsInFullPath(matcher, volumePathSplited.Item1 + System.IO.Path.DirectorySeparatorChar);
 
             Console.WriteLine(string.Empty);
+            Console.WriteLineFormatted($@"Volume: {volumePathSplited.Item1}", Color.Green);
+            Console.WriteLineFormatted($@"Path: {volumePathSplited.Item2}", Color.Green);
             Console.WriteLineFormatted($@"{results.Count()} files found", Color.Green);
             results.ToList().ForEach(e => Console.WriteLine(e));
 

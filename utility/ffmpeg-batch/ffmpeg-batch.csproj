@@ -8,7 +8,7 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <Copyright>Copyright © Jeferson Tenorio</Copyright>
     <Authors>Jeferson Tenorio</Authors>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <Description>Convert audio or video files in batch using FFmpeg</Description>
     <PackageLicenseUrl>https://gep13.mit-license.org/</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/jefersonsv/ffmpeg-fluent</PackageProjectUrl>
